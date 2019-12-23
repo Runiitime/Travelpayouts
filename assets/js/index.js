@@ -32,7 +32,7 @@ function onFilterForm(event) {
 }
 
 function getItems() {
-  return fetch('/assets/json/data.json').then(res => res.json()).then(resp => {
+  return fetch('assets/json/data.json').then(res => res.json()).then(resp => {
     return resp
   })
 }
