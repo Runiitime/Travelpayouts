@@ -32,14 +32,13 @@ function onFilterForm(event) {
 }
 
 function getItems() {
-  return fetch('assets/json/data.json').then(res => res.json()).then(resp => {
+  return fetch('assets/js/data.json').then(res => res.json()).then(resp => {
     return resp
   })
 }
 
 function renderItems() {
   getItems().then(resp => {
-    console.log('resp', resp)
     renderHeader(resp.header)
     let cards = document.querySelector('#cards')  
       
