@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1200px) {
+  .header-title .title {
+    font-size: 15px;
+    font-size: 1vw;
+  }
+
+  .header-title .price {
+    font-size: 19px;
+    font-size: 1.4vw;
+  }
+
+  .header-titles {
+    width: 15vw;
+  }
+
+  .filter-title p {
+    font-size: 12px;
+    font-size: 1.1vw;
+  }
+
+  .card-description .title-description {
+    font-size: 15px;
+    font-size: 1.3vw;
+  }
+
+  .card-promo p {
+    font-size: 12px;
+    font-size: 1vw;
+  }
+
+  .clipboard {
+    font-size: 12px;
+    font-size: 1.5vw;
+  }
+
+  .card-description .description {
+    font-size: 29px;
+    font-size: 2vw;
+  }
+
+  .card-button-form-btn {
+    font-size: 12px;
+    font-size: 1.5vw;
+  }
+
+  .reset-btn {
+    font-size: 12px;
+    font-size: 1.2vw;
+  }
+}
