@@ -97,9 +97,10 @@ function createPromo(item) {
   input.setAttribute('class', 'clipboard')
   input.setAttribute('value', item.promocode)
 
-  let img = document.createElement('img')
-  img.setAttribute('src', 'assets/img/copy.svg')
-
+  // let img = document.createElement('img')
+  // img.setAttribute('src', 'assets/img/copy.svg')
+  let img = document.createElement('div')
+  img.setAttribute('class', 'copy-svg')
   div.appendChild(input)
   div.appendChild(img)
 

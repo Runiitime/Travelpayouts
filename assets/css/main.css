@@ -286,3 +286,13 @@ form#form {
 .card-button-form-btn:hover {
   background: #006DD3;
 }
+
+.copy-svg {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  width: 24px;
+  height: 24px;
+  background-image: url('../img/copy.svg');
+  background-repeat: no-repeat;
+}
