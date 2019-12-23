@@ -98,7 +98,7 @@ function createPromo(item) {
   input.setAttribute('value', item.promocode)
 
   let img = document.createElement('img')
-  img.setAttribute('src', '/assets/img/copy.svg')
+  img.setAttribute('src', 'assets/img/copy.svg')
 
   div.appendChild(input)
   div.appendChild(img)
